@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    
+  font-family: "Inter", sans-serif;
+}
+.contener{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1500px;
+    height: 100px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    background-color: #fff;
+    
+
+}
+.havola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 500px;
+    height: 100px;
+    
+    
+    
+}
+.havola a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.havola a:hover{
+    color: blue;
+    
+}
+button:hover{
+    color:black;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    background-color: #58A9A5;
+    color:white;
+    cursor: pointer;
+    margin-left: -20px;}
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px 8px 8px 0px;
+    border: none;
+    background-color: #58A9A5;
+    color:white;
+    cursor: pointer;
+    margin-left: -20px;
+    
+    
+
+}
+.box1 h1{
+ font-size: 50px;
+ margin-left: -20px;
+ 
+}
+    .box1 p{
+    font-size: 20px;
+    margin-left: -20px;
+}
+.box1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+   
+}
+.box2{
+    
+    
+    margin-right: -30px;
+}
+.works{
+    width: 1500px;
+    height: 600px;
+    
+    position: relative;
+    margin-top: 30px;
+    
+}
+.works div:last-child{
+    width: 1260px;
+    height: 300px;
+    background-color: #CCF0E6;
+    margin-left: 100px;
+    display: flex;
+    
+    margin-left: 120px;
+}
+.works div:first-child{
+    width: 90px;
+    height: 90px;
+    background-color: #fff ;
+    border-radius: 65px;
+  position: absolute;
+  left: 985px;
+  top: 320px;
+ opacity: 0.4;
+  
+
+}
+.text{
+    text-align: center;
+    
+}
+.text h1{
+    font-size: 50px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.box3 p{
+   margin-left: -100px;
+
+    
+}
+.text p{
+    font-size: 20px;
+}
+.circle{
+    width: 75px;
+    height: 75px;
+    background-color: #fff ;
+    border-radius: 50px;
+  position: absolute;
+  left: 993px;
+  top: 332px;
+
+}
+.box4{
+    width: 1260px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.box4 h1{
+    font-size: 40px;
+    margin-right: 200px;
+}
+.box4 p{
+    font-size: 20px;
+    
+}
+.box5{
+    width: 1260px;
+    height: 800px;
+    text-align: center;
+   
+    margin-left: 120px;}
+   .box6 hr{
+        width: 100px;
+        background-color: #58A9A5;
+        height: 2px;
+        border: none;
+    }
+    .box6 h1{
+        font-size: 40px;
+        
+
+    }
+    .box6 p{
+        font-size: 20px;
+    }
+.box7{
+    width: 1260px;
+    height: 500px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box7 div{
+    width: 300px;
+    height: 450px;
+    
+}
+.box7 img{
+    width: 300px;
+    height: 300px;
+}
+.box7 h1{
+    color: #58A9A5;
+}
+.box7 p{
+    opacity: 0.7;
+}
+.box8{
+    width: 1260px;
+    height: 900px;
+    
+}
+.box9{
+    display:flex ;
+    width: 1260px;
+    height: 100px;
+    
+    justify-content: space-evenly;
+}
+.box8 h1{
+    font-size: 50px;
+}
+.box10{
+    width: 1260px;
+    height: 500px;
+    
+    display: flex;
+}
+.box11{
+    width: 760px;
+    height: 530px;
+    background-color: #CCF0E6;
+
+}
+.box12{
+    display: flex;
+    justify-content: space-evenly;
+}
+strong{
+    font-size: 40px;
+}
+.box12 p{
+    font-size: 20px;
+    color: #58A9A5;
+    width: 760px;
+} 
+.box11 p:last-child{
+    text-align: start;
+    margin-left: 100px;
+
+
+}
+em{
+     color: #58A9A5;
+
+}
+footer{
+    width: 1260px;
+    height: 500px;
+    display: flex;
+justify-content: space-between;}
+    footer h1{
+        font-size: 50px;
+    }
+    form{
+        width: 800px;
+        height: 250px;
+        text-align: start;
+        
+    }
+    form input{
+        border: none;
+        margin-left: 50px;
+        width: 700px;
+        height: 40px;
+    }
+    form hr{
+        width: 700px;
+    }
+    footer div hr{
+        width: 100px;
+        background-color: #58A9A5;
+        height: 2px;
+        border: none;
+        margin-left: 0;
+    }
+    footer div{
+        text-align: start;
+    }
+    .btn2{
+         width: 150px;
+    height: 40px;
+    border-radius: 8px 8px 8px 0px;
+    border: none;
+    background-color: #58A9A5;
+    color:white;
+    cursor: pointer;
+    margin-left: 600px;
+    
+
+    }
+    .rasm{
+        position: absolute;
+        right: 200px;
+        top: 170px;
+    }
+    p{
+        opacity: 0.7;
+    }
+
+
+
